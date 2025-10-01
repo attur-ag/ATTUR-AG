@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="./image/photo1.gif" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Attur AG Church</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+        <div id="dateTime">
+            <div>
+                <span id="currentDate" style="font-weight: bold;"></span>
+                <span id="currentTime" style="color: rgb(185, 215, 255);"></span>
+            </div>
+            <P id="dateTime"></P>
+        </div>
+    <div class="logo-section">
+      <img src="./image/photo1.gif" alt="Attur AG Church Logo" class="logo">
+      <div class="church-name">
+        <h1>Attur AG Church</h1>
+        <p>Assemblies of God</p>
+      </div>
+    </div>
+
+    <div class="pastor-section">
+      <img src="./image/photo2.jpg" alt="Rev. T. Edwin Devadhas" class="pastor-img">
+      <p>Rev. T. Edwin Devadhas</p>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://www.facebook.com/profile.php?id=100072322851333" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/tamilgospelspot9.0?igsh=MWgxdmUzeG0xeHdyMg==" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.youtube.com/@TamilGospelSpot" target="_blank" aria-label="YouTube">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="./index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="./about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+      <li><a href="./video.html"><i class="fas fa-video"></i> Sermons</a></li>
+      <li><a href="./shortvid.html"><i class="fab fa-youtube"></i> Short Video</a></li>
+      <li><a href="./contact.html" class="active"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="contact-container">
+    <h1><i class="fas fa-paper-plane"></i> Contact Us</h1>
+    <p class="subtitle">Have questions or prayer requests? We'd love to hear from you!</p>
+
+    <div class="contact-content">
+      <form action="send_mail.php" method="POST">
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Your Name*" required>
+  </div>
+  <div class="form-group"> 
+    <input type="email" name="email" placeholder="Your Email*" required>
+  </div>
+  <div class="form-group">
+    <input type="tel" name="phone" placeholder="Phone Number">
+  </div>
+  <div class="form-group">
+    <textarea name="message" rows="5" placeholder="Your Message*" required></textarea>
+    <button type="submit" class="submit-btn">
+      <i class="fas fa-paper-plane"></i> Send Message
+    </button>
+  </div>
+</form>
+
+      <div class="church-info">
+        <h2><i class="fas fa-church"></i> Church Information</h2>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Attur Assemblies of God Church<br>
+            Kannadi Mill Back Side,<br>
+            Attur, Salem, Tamil Nadu - 636102</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <p><a href="tel:+919865182941">+91 98651 82941</a></p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <p><a href="mailto:atturagchurch@gmail.com">atturagchurch@gmail.com</a></p>
+        </div>
+               <div class="map-container">  
+          <iframe src="https://maps.google.com/maps?q=attur%20AG%20church&t=&z=15&ie=UTF8&iwloc=&output=embed"  
+            width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>  
+        </div>  
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+    <!-- Bible Verse Section -->
+    <div class="bible-verse-section">
+        <div class="bibleVerse" id="bibleVerse">
+            <h2><i class="fas fa-bible"></i> Verse of the Day (Tamil)</h2>
+            <p id="வாக்குத்தத்தம்-ta"></p>
+        </div>
+        <div class="bibleVerseEng" id="bibleVerseEng">
+            <h2><i class="fas fa-bible"></i> Verse of the Day (English)</h2>
+            <p id="வாக்குத்தத்தம்-en"></p>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./shortvid.html">Short Video</a></li>
+                    <li><a href="./video.html">Sermons</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li>Sunday Worship: 7:00 AM</li>
+                    <li>saturday: 10:00 PM</li>
+                    <li>Prayer Meeting: Sunday Evening Worship 6:00 PM</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <ul>
+                    <li> <a href="tel:+919865182941">+91 98651 82941</a></li>
+                </ul>
+                <div class="social-footer">
+                    <a href="https://www.facebook.com/profile.php?id=100072322851333" target="_blank"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/@TamilGospelSpot" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/tamilgospelspot9.0?igsh=MWgxdmUzeG0xeHdyMg==" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="current-year"></span> Attur AG Church. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
