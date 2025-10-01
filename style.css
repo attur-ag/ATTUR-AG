@@ -738,3 +738,15 @@ aside.import-al {
     cursor: pointer;
     z-index: 2;
 }
+@media (max-width: 768px) {
+  /* CSS rules for screens 768 pixels wide or less (mobile/tablet) */
+  .navigation {
+    /* Rules to change the horizontal menu to a vertical sidebar */
+    display: block;
+    width: 100%;
+  }
+  .menu-item {
+    float: none; /* Removes horizontal floating */
+    margin: 10px 0;
+  }
+}
